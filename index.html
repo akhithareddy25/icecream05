@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title> ICE CREAM WEBSITE LAUNCHING PAGE</title>
+	<link rel="stylesheet"  href="decor.css">
+</head>
+<body>
+   <section>
+   	    <div class="circle"></div>
+   	<header>
+   		<a href="#"><img src="logo.jpeg" class="logo"></a>
+   			<ul>
+   				<li><a href="#">Home</a></li>
+   				<li><a href="#">Menu</a></li>
+   				<li><a href="#">Special</a></li>
+   				<li><a href="#">Contact</a></li>
+   			</ul>
+   	</header>
+   	<div class="content">
+   		<div class="textBox">
+   		<h2> so many <br><span> FLAVORS </span><br> so little time </h2>
+   		<p> A smooth and creamy ice cream, with the flavors of almonds, rose water, melon seeds and cardamom. Thandai ice cream is a heavenly dessert to serve at the next dinner party!.A dessert made from frozen sweetened cream or a similar substance, usually flavoured. </p>
+   		<a href="a">Learn More</a>
+   	</div>
+   	<div class="imgBox">
+   		<img src="thumb2.png" class="flavors">
+   	</div>
+   	</div>
+   	<ul class="thumb">
+   		<li><img src="thumb1.png" onclick="imgSlider('img1.png')"></li>
+   		<li><img src="thumb2.png" onclick="imgSlider('img2.png')"></li>
+   		<li><img src="thumb3.png" onclick="imgSlider('img3.png')"></li>
+   	</ul>
+   	<ul class="sci">
+   		<li><a href="#"><img src="facebook.jpeg"></a></li>
+   		<li><a href="#"><img src="twitter.jpeg"></a></li>
+   		<li><a href="#"><img src="insta.jpeg"></a></li>
+   	</ul>
+   </section>
+  <script type="text/javascript">
+  	function imgSlider(anything){
+  		document.querySelector('.flavors').src = anything;
+  	}
+  </script>
+   	
+   
+</body>
+</html>
